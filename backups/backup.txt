@@ -1,0 +1,24 @@
+//jsx
+import "./ContentSideList.css";
+export const ContentSideList = () => {
+    return (
+        
+    )
+}
+//css
+//html
+<div className="content-side__list-item">
+                <img src="/img/content-side/delivery.svg" alt="" className="content-side__list-item--img" />
+                <h5 className="content-side__list-item--title">Доставка</h5>
+                <p className="content-side__list-item--text">Проверка при получении и возможность бесплатно вернуть товар</p>
+            </div>
+            <div className="content-side__list-item">
+                <img src="/img/content-side/auto-library.svg" alt="" className="content-side__list-item--img" />
+                <h5 className="content-side__list-item--title">Автотека</h5>
+                <p className="content-side__list-item--text">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
+            </div>
+            <div className="content-side__list-item">
+                <img src="/img/content-side/online-booking.svg" alt="" className="content-side__list-item--img" />
+                <h5 className="content-side__list-item--title">Онлайн-бронирование жилья</h5>
+                <p className="content-side__list-item--text">Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России</p>
+            </div>
